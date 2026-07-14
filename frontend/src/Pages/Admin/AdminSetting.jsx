@@ -1,5 +1,5 @@
 import { useState } from "react";
-import AdminSidebar from "../../Components/Admin/Sidebar";
+import AdminSidebar from "../../Components/Admin/sidebar";
 import axios from "../../api/axios";
 
 function AdminSettings() {
