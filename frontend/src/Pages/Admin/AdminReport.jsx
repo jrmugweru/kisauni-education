@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "../../api/axios";
 
-import AdminSidebar from "../../Components/Admin/Sidebar";
+import AdminSidebar from "../../Components/Admin/sidebar";
 import ReportTable from "../../Components/Admin/ReportTable";
 import ReportModal from "../../Components/Admin/ReportModal";
 

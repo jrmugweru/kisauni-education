@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "../../api/axios";
-import AdminSidebar from "../../Components/Admin/Sidebar";
+import AdminSidebar from "../../Components/Admin/sidebar";
 import AnnouncementTable from "../../Components/Admin/AnnouncementTable";
 import AnnouncementModal from "../../Components/Admin/AnnouncementModal";
 
