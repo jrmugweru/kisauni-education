@@ -34,8 +34,8 @@ function Navbar() {
             Schools
           </Link>
 
-          <Link to="/contact" className="hover:text-yellow-400">
-            Contact
+          <Link to="/report-issue" className="hover:text-yellow-400">
+            Report Issues
           </Link>
 
           <Link

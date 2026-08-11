@@ -27,7 +27,7 @@ function Hero() {
 
         <div className="flex flex-wrap justify-center gap-5 mt-10">
 
-          <a
+          {/* <a
             href="#portals"
             className="bg-yellow-400 text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-yellow-300 transition duration-300"
           >
@@ -39,7 +39,7 @@ function Hero() {
             className="border-2 border-white px-8 py-4 rounded-lg hover:bg-white hover:text-blue-900 transition duration-300"
           >
             Register
-          </Link>
+          </Link> */}
 
         </div>
 
