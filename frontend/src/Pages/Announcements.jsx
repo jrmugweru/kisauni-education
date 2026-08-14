@@ -12,7 +12,7 @@ import axios from "../api/axios";
 import Announcement from "../Components/home/Announcement";
 import Navbar from "../Components/layout/Navbar";
 import Footer from "../Components/layout/Footer";
-
+import SEO from "../Components/SEO";
 import { FaBullhorn, FaCalendarAlt } from "react-icons/fa";
 
 function Announcements() {
@@ -35,6 +35,10 @@ function Announcements() {
 
     return (
         <>
+        <SEO
+  title="Education Announcements | Kisauni Education Office"
+  description="View the latest education announcements and updates from Kisauni Sub-County Education Office."
+/>
             <Announcement />
             <Navbar />
 

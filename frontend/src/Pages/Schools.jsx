@@ -3,6 +3,7 @@ import { schools } from "../data/schools";
 import Announcement from "../Components/home/Announcement";
 import Navbar from "../Components/layout/Navbar";
 import Footer from "../Components/layout/Footer";
+import SEO from "../Components/SEO";
 
 function Schools() {
   const [category, setCategory] = useState("All");
@@ -26,6 +27,10 @@ function Schools() {
 
   return (
     <>
+    <SEO
+  title="Schools in Kisauni | Kisauni Education Office"
+  description="Find information about schools in Kisauni Sub-County, including public and private primary, secondary and junior secondary schools."
+/>
       <Announcement />
       <Navbar />
 

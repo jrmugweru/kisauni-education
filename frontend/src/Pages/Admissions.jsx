@@ -2,10 +2,15 @@ import Announcement from "../Components/home/Announcement";
 import Navbar from "../Components/layout/Navbar";
 import Footer from "../Components/layout/Footer";
 import { FaBus, FaDownload, FaClipboardCheck } from "react-icons/fa";
+import SEO from "../Components/SEO";
 
 function Admissions() {
   return (
     <>
+    <SEO
+  title="Admissions | Kisauni Education Office"
+  description="Access education admission information and resources from the Kisauni Sub-County Education Office."
+/>
       <Announcement />
       <Navbar />
 

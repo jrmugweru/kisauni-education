@@ -3,10 +3,15 @@ import Announcement from "../Components/home/Announcement";
 import Navbar from "../Components/layout/Navbar";
 import Footer from "../Components/layout/Footer";
 import { FaDownload, FaExchangeAlt } from "react-icons/fa";
+import SEO from "../Components/SEO";
 
 function TransferForms() {
   return (
     <>
+    <SEO
+  title="School Transfer Forms | Kisauni Education Office"
+  description="Access school transfer forms and information for learners in Kisauni Sub-County."
+/>
       <Announcement />
       <Navbar />
 

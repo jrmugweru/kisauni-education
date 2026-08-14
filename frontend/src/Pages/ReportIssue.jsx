@@ -4,6 +4,7 @@ import Navbar from "../Components/layout/Navbar";
 import Footer from "../Components/layout/Footer";
 import { FaExclamationTriangle } from "react-icons/fa";
 import axios from "../api/axios";
+import SEO from "../Components/SEO";
 
 function ReportIssue() {
   const [formData, setFormData] = useState({
@@ -62,6 +63,10 @@ const handleChange = (e) => {
 
   return (
     <>
+    <SEO
+  title="Report an Education Issue | Kisauni Education Office"
+  description="Report an education-related issue to the Kisauni Sub-County Education Office."
+/>
       <Announcement />
       <Navbar />
 
