@@ -31,13 +31,17 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     "kisauni-education-1.onrender.com",
+    "kisaunieducationsite.co.ke",
+    "www.kisaunieducationsite.co.ke",
     "localhost",
     "127.0.0.1",
 ]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://kisauni-education.vercel.app"
+    "https://kisauni-education.vercel.app",
+    "https://kisaunieducationsite.co.ke",
+    "https://www.kisaunieducationsite.co.ke",
 ]
 
 
